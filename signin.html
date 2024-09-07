@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maur - Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Maur</div>
+            <ul class="nav-links">
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+            <div class="search-signin">
+                <input type="text" placeholder="Search...">
+                <button class="signin-btn" onclick="location.href='signin.html';">Sign In</button>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="signin-page">
+        <h1>Keep Growing</h1>
+        <div class="signin-container">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password">
+
+            <button class="login-btn">Login</button>
+            
+            <h3>Or sign in with:</h3>
+            <div class="alt-signin-options">
+                <button class="alt-signin-btn">Sign in with MetaMask</button>
+                <button class="alt-signin-btn">Sign in with Google</button>
+                <button class="alt-signin-btn">Sign in with Phone Number</button>
+                <button class="alt-signin-btn">Sign in with Email</button>
+            </div>
+
+            <h3>Select Your Role</h3>
+            <div class="role-selection">
+                <button class="role-btn" data-role="student">Student</button>
+                <button class="role-btn" data-role="teacher">Teacher</button>
+                <button class="role-btn" data-role="parent">Parent</button>
+            </div>
+
+            <div id="role-options" class="role-options">
+                <!-- Options based on role will dynamically appear here -->
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
