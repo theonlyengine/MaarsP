@@ -57,4 +57,266 @@ header {
     background-color: #555;
     color: #fff;
     border: none;
-   
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 40px 0;
+    background-image: url('assets/ellipse-background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+}
+
+.feature h2 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Video Section */
+.video-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #111;
+}
+
+.video-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin: 40px auto;
+    max-width: 800px;
+    height: 450px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-signin-btn {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Challenges Section */
+.challenges {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #222;
+}
+
+.challenge {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.challenge h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.challenge p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Key Features Section */
+.key-features {
+    padding: 40px 20px;
+    background-color: #111;
+    text-align: center;
+}
+
+.key-features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.key-features ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+.key-features li {
+    margin-bottom: 15px;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #111;
+}
+
+footer h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: #fff;
+}
+
+.subscribe-form button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Sign In Page */
+.signin-page {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('assets/ellipse-background.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.signin-container {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+button.login-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.alt-signin-options {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.alt-signin-btn {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.role-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.role-btn {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.role-options {
+    margin-top: 20px;
+}
